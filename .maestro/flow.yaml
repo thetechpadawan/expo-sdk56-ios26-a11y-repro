@@ -1,0 +1,10 @@
+appId: com.skmpf.expo-sdk56-ios26-a11y-repro
+---
+- launchApp
+- assertVisible:
+    id: hero-title
+- assertVisible:
+    id: hero-subtitle
+- assertVisible:
+    id: email-input
+- assertVisible: Press me
